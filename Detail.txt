@@ -2,3 +2,9 @@ Requirements:
 
 -Rasberry pi zero W
 -Rasberry pi Camera
+-Rasberry pi zero Case holder
+-Micro SD Card (at least 8GB)
+-Power Supply
+
+First of all you need to install your software in your Rasberry.To do that you need to insert your Micro Sd card in to your computer and visit the official 
+website of Rasberry: "https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit"

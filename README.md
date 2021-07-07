@@ -26,4 +26,4 @@ For OpenCV installation in your raspberry just follow the instruction of this si
 
 To connect with my Rasberry pi i am using Putty.Find out your locan rasberry pi address and connect using putty.To login in username use "pi" and password "rasberry"
 
-After that connect your Rasberry camera and check the connection by typing in the command line "raspistill -o Desktop/image.jpg"
+After that connect your Rasberry camera and check the connection by typing in the command line "sudo raspi-config".In this blue interface just go to "camera" and enable it.Next step is to reboot your rasberry and then check if the camera is ready to use py typing "raspistill -o Desktop/image.jpg".With this command you have taken a photo and you have store it in the desktop.Using you command lines go to desktop and check if the image is there,if not repeat the step.

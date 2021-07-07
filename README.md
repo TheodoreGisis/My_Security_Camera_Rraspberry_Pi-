@@ -2,9 +2,14 @@
 Requirements:
 
 Rasberry pi zero W
+
+
 Rasberry pi Camera
+
 Rasberry pi zero Case holder
+
 Micro SD Card (at least 8GB)
+
 Power Supply
 
 Not necessary:

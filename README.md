@@ -1,5 +1,5 @@
 # My_Security_Camera_Rasberry_pi
-#Requirements:
+Requirements:
 
 -Rasberry pi zero W
 -Rasberry pi Camera

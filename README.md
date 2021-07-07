@@ -1,11 +1,11 @@
 # My_Security_Camera_Rasberry_pi
 Requirements:
 
--Rasberry pi zero W
--Rasberry pi Camera
--Rasberry pi zero Case holder
--Micro SD Card (at least 8GB)
--Power Supply
+Rasberry pi zero W
+Rasberry pi Camera
+Rasberry pi zero Case holder
+Micro SD Card (at least 8GB)
+Power Supply
 
 Not necessary:
 -Micro HDMI

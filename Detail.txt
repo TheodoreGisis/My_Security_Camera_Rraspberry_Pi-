@@ -9,9 +9,12 @@ Requirements:
 Not necessary:
 -Micro HDMI
 
-
 First of all you need to install your software in your Rasberry.To do that you need to insert your Micro Sd card in to your computer and visit the official 
 website of Rasberry: "https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit".Here you can find the software that you want, if you don't 
 know how to connect with your raspberry using ssh i highly recommend to install the version with the desktop otherwise download the lite version(less hour).
-After that just follow the instructions.If you want to connect your raspberry with your wifi and you are using the lite version just visit this site---->"https://core-electronics.com.au/tutorials/raspberry-pi-zerow-headless-wifi-setup.html"
+After that just follow the instructions.
+If you want to connect your raspberry with your wifi and you are using the lite version just visit this site---->"https://core-electronics.com.au/tutorials/raspberry-pi-zerow-headless-wifi-setup.html"
+otherwise just plug in your HDMI and use your mouse and your keyboard.
 For OpenCV installation in your raspberry just follow the instruction of this site --->"https://learnopencv.com/install-opencv-4-on-raspberry-pi/"
+The next step is to connect your camera with your raspberry and to enable it.If you don't know how to enable the camera just google it..it's very easy!
+Last but not least download the code from my GitHub page and run in with python.Make sure to make the right adjustments to the code(mail,etc..)

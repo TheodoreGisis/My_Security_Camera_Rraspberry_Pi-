@@ -33,7 +33,23 @@ The next step is to connect your camera with your raspberry and to enable it.If 
 After connecting the camera we should build a raspberry webcam server, to see live what is happening in to the room that we set up the camera.To do that follow the steps:
 
 -sudo apt install autoconf automake build-essential pkgconf libtool git libzip-dev libjpeg-dev gettext libmicrohttpd-dev libavformat-dev libavcodec-dev libavutil-dev libswscale-dev libavdevice-dev default-libmysqlclient-dev libpq-dev libsqlite3-dev libwebp-dev
--
+
+-sudo wget https://github.com/Motion-Project/motion/releases/download/release-4.3.1/pi_buster_motion_4.3.1-1_armhf.deb
+
+-sudo dpkg -i pi_buster_motion_4.3.1-1_armhf.deb
+
+-sudo nano /etc/motion/motion.conf
+
+    In the config file just make this adjustments:
+           -daemon on
+            -stream_localhost off
+        
+-sudo nano /etc/default/motion
+      change : "start_motion_daemon=yes"
+
+-sudo service motion start
+
+To see the live video just type to your browser "YOUR_RASPBERRY_IP":8081
 
 Last but not least download the code from my GitHub page and run in with python.Make sure to make the right adjustments to the code(mail,etc..)
 

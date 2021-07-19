@@ -41,6 +41,7 @@ After connecting the camera we should build a raspberry webcam server, to see li
 -sudo nano /etc/motion/motion.conf
 
  In the config file just make this adjustments:
+ 
        -daemon on
        -stream_localhost off
         

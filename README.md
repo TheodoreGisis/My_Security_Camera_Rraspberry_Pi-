@@ -34,7 +34,7 @@ After connecting the camera we should build a raspberry webcam server, to see li
 
 -sudo apt install autoconf automake build-essential pkgconf libtool git libzip-dev libjpeg-dev gettext libmicrohttpd-dev libavformat-dev libavcodec-dev libavutil-dev libswscale-dev libavdevice-dev default-libmysqlclient-dev libpq-dev libsqlite3-dev libwebp-dev
 
-###-sudo wget https://github.com/Motion-Project/motion/releases/download/release-4.3.1/pi_buster_motion_4.3.1-1_armhf.deb###
+-sudo wget https://github.com/Motion-Project/motion/releases/download/release-4.3.1/pi_buster_motion_4.3.1-1_armhf.deb
 
 -sudo dpkg -i pi_buster_motion_4.3.1-1_armhf.deb
 
@@ -42,8 +42,8 @@ After connecting the camera we should build a raspberry webcam server, to see li
 
  In the config file just make this adjustments:
  
-       -daemon on
-       -stream_localhost off
+  -daemon on
+  -stream_localhost off
         
 -sudo nano /etc/default/motion
       change : "start_motion_daemon=yes"

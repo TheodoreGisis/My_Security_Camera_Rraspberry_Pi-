@@ -29,4 +29,12 @@ To connect with my Rasberry pi i am using Putty.Find out your locan rasberry pi 
 After that connect your Rasberry camera and type "sudo raspi-config".In this blue interface just go to "camera" and press enable.Next step is to reboot your rasberry and then check if the camera is ready to use py typing "raspistill -o Desktop/image.jpg".With this command you have taken a photo and you have store it in the desktop.Using you command lines go to desktop and check if the image is there,if not repeat the step.
 
 The next step is to connect your camera with your raspberry and to enable it.If you don't know how to enable the camera just google it..it's very easy!
+
+After connecting the camera we should build a raspberry webcam server, to see live what is happening in to the room that we set up the camera.To do that follow the steps:
+
+-sudo apt install autoconf automake build-essential pkgconf libtool git libzip-dev libjpeg-dev gettext libmicrohttpd-dev libavformat-dev libavcodec-dev libavutil-dev libswscale-dev libavdevice-dev default-libmysqlclient-dev libpq-dev libsqlite3-dev libwebp-dev
+-
+
 Last but not least download the code from my GitHub page and run in with python.Make sure to make the right adjustments to the code(mail,etc..)
+
+

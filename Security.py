@@ -21,9 +21,9 @@ def remove_image_from_pc(image):
 
 def mail(image):
 
-    sender = "teogisis12@gmail.com"
-    receiver = "myrasberrygisis@gmail.com"
-    password="atsaoleole123"
+    sender = "-------------"
+    receiver = "-----------"
+    password="-------"
     msg = MIMEMultipart()
     msg['From'] = sender
     msg['To'] = receiver
@@ -56,7 +56,7 @@ def converPicture(image):
     blur = cv2.GaussianBlur(gray, (5,5) ,0)
     _,thresh =cv2.threshold(blur,20,255,cv2.THRESH_BINARY)
     dilate = cv2.dilate(thresh,None,iterations=3)
-    contours,_=cv2.findContours(dilate,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
+    _,contours,_=cv2.findContours(dilate,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
     return contours
 
 def DrawBoxes(contours):
